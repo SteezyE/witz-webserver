@@ -18,7 +18,7 @@ int main()
 {
 
 	FILE *fp;
-	fp = fopen("data/witze", "r");
+	fp = fopen("../data/witze", "r");
 	char wtzfile[WTZFSIZE];
 	int wtzptr[WTZCNT+1] = {0}, wsize = 0, j = 0, c;
 	while((c = fgetc(fp)) != EOF)
