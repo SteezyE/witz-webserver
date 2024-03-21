@@ -11,6 +11,6 @@ optional: port forwarding (on router) to be globally reachable
 Linux/macOS: gcc witzserver.c -o witzserver 
 Windows: gcc witzserver.c -o witzserver.exe -lws2_32
 
--- useage --
+-- usage --
 load website and receive random joke (german unix-fortune jokes)
 e.g. curl IP:PORT
